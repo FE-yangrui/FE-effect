@@ -1,0 +1,56 @@
+﻿@charset'UTF-8';
+html { -webkit-text-size-adjust: 100%; }
+html, body { width: 100%; min-width: 320px; height: 100%; }
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-family: '-apple-system-font',Arial,Helvetica,'sans-serif'; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; border: 0; -webkit-touch-callout: none; -ms-box-sizing: border-box; -o-box-sizing: border-box; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+input, textarea, select { -webkit-user-select: auto; }
+textarea { resize: none; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+a { cursor: pointer; text-decoration: none; outline: 0; }
+ul, dl { list-style: none; }
+img { display: block; }
+i, em { font-style: normal; text-decoration: none; }
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section { display: block; }
+input { border: 0; outline: none; -webkit-appearance: none; }
+
+/*移动端取消touch高亮框*/
+a, img, button, input, textarea { -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+input:focus { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-user-modify: read-write-plaintext-only; }
+
+/*清除输入框内阴影*/
+input[type='button'], input[type='submit'], input[type='reset'], textarea { border: 0; -webkit-appearance: none; }
+
+/*移除input在type="number"时的上下小箭头*/
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { border: 0; -webkit-appearance: none !important; }
+input[type='number'] { -moz-appearance: textfield; }
+
+/*清除输入框disabled时阴影*/
+input[disabled], input[disabled]:hover { color: #999; background-color: #fff; }
+input:focus, textarea:focus, button:focus { outline: none; }
+input::-ms-clear { display: none; }
+button { -moz-border-radius: 0; border-radius: 0; }
+svg { -webkit-transform-origin: 0; -moz-transform-origin: 0; -ms-transform-origin: 0; transform-origin: 0; }
+
+/*pointer手势*/
+.pointer-box { cursor: pointer; }
+
+/*解决移动端滚动卡顿*/
+.scroll-box { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
+
+/*单行省略*/
+.ellipsis-1 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+/*两行省略*/
+.ellipsis-2 { display: -webkit-box; overflow: hidden; white-space: normal !important; text-overflow: ellipsis; word-wrap: break-word; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+/*清除浮动*/
+.clearfloat:after { height: 0; display: block; visibility: hidden; clear: both; content: ''; }
+.clearfloat { zoom: 1; }
+
+/*flex布局兼容代码*/
+.flex-box { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -moz-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; align-items: center; }
+.flex-1 { -webkit-box-flex: 1; -moz-box-flex: 1; -ms-flex: 1; flex: 1; }
+
+/*数字字体*/
+.fontArial { font-family: arial; }
+.fl { float: left; }
+.fr { float: right; }
