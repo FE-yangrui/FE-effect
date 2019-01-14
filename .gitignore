@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#yangrui
+node_modules/
+yangrui/
+*.log
+.git/
+dist/
+.umi/
