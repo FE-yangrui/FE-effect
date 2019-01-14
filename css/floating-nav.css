@@ -5,7 +5,7 @@
 .floating-nav-content ul { width: -moz-calc(100% + 4px); width: calc(100% + 4px); margin: 18px auto 0; margin-left: -2px; padding-top: 10px; position: relative; }
 .floating-nav-content ul:before { width: 100%; height: 1px; position: absolute; top: 0; left: 2px; content: ''; background: #e8e8e8; }
 .floating-nav-content li {min-width: 25%; height: 40px; float: left; }
-.floating-nav-content li a {width: 100%; height: 20px; text-align: center; padding: 10px 0; float: left; font-size: 14px; line-height: 20px; letter-spacing: 0; color: #262626; }
+.floating-nav-content li a {width: 100%; height: 40px; text-align: center; padding: 10px 0; float: left; font-size: 14px; line-height: 20px; letter-spacing: 0; color: #262626; }
 .close-floating-nav-pop { height: 20px; margin-top: 36px; display: block; font-size: 14px; line-height: 20px; text-align: center; letter-spacing: 0; color: #a5a5a5; }
 .floating-nav-mask { width: 100%; height: 100%; position: fixed; z-index: 9999; top: 0; left: 0; opacity: .6; background: #000; filter: alpha(opacity=60); }
 .floating-nav-fixed-ball { width: 44px; height: 44px; padding: 9px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: fixed; top: 50%; right: 15px; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); -moz-border-radius: 25px; border-radius: 25px; background: #e655aa; -webkit-box-shadow: 0 2px 8px 0 rgba(196, 20, 123, .77); -moz-box-shadow: 0 2px 8px 0 rgba(196, 20, 123, .77); box-shadow: 0 2px 8px 0 rgba(196, 20, 123, .77); }
